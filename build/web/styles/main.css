@@ -1,0 +1,102 @@
+/* header of the page */
+legend
+{
+    font-size: 25pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #00aced; 
+}
+
+body
+{
+    font-size: 11pt;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* border of the field */
+fieldset
+{
+    width: 350px;
+    margin: auto;
+    border-color: #00aced;
+    border-style: solid;
+}
+
+/* all the headers for the input boxes */
+label 
+{ 
+    display: block;
+    margin-top: 10px;
+    letter-spacing: 2px;
+    margin-left: 40px;
+} 
+
+/* the combo box */
+select
+{
+  width: 255px;
+  margin-left: 40px;
+  margin-bottom: 10px;
+}
+
+/* when the input boxes are highlighted */
+input:focus
+{ outline-color: #1dcaff; background: #F0F8FF }
+select:focus
+{ outline-color: #1dcaff; }
+
+/* ID: input box size */
+.inputBox
+{
+    height:21px;
+    width: 250px;
+    margin-left: 40px;
+    letter-spacing: 2px;
+}
+
+
+/* submit button (use input[type=submit] or-) */
+#btnSubmit
+{
+    margin-top: 15px;
+    margin-left: 40px;
+    margin-bottom: 15px;
+    padding: 6px 108px;
+    border: 0 none;
+    cursor: pointer;
+    background: #00aced;
+    color: white;
+}
+
+ /*error messages*/ 
+#errorMessage
+{
+    color: red;
+}
+
+
+/* for errors */
+.notVisible
+{
+    /* if there is no error don't show anything '*/
+    display: none;
+}
+
+.isVisible
+{
+    /* if there is an error */
+    display: inline;
+    color: red;
+}
+
+/* to display the link */
+a:link 
+{
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.login
+{
+    
+}

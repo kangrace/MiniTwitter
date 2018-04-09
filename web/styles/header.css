@@ -1,0 +1,11 @@
+​/* # for id and . for class and nothing in the front for html labels like "input" "button""*/
+
+.header
+{
+	
+}
+
+.button 
+{
+	display: inline-block;
+}
